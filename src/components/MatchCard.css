@@ -1,0 +1,84 @@
+.MatchCard {
+  background: #242424;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border-top: 5px solid #004d98; /* Barca Blue */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+}
+
+.MatchCard:hover {
+  transform: translateY(-5px);
+}
+
+.competition {
+  color: #888;
+  font-size: 0.85rem;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.match-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.team-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.team h4 {
+  margin: 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.vs {
+  font-weight: bold;
+  color: #555;
+  padding: 0 1rem;
+}
+
+.time-info {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid #333;
+}
+
+.time-info p {
+  margin: 0;
+  font-weight: 600;
+  color: #edbb00;
+}
+
+.tickets-btn {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #a50044;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tickets-btn:hover {
+  background-color: #c90053;
+}
